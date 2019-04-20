@@ -138,7 +138,7 @@ jQuery.fn = jQuery.prototype = {
 	},
 
 	map: function( callback ) {
-		return this.pushStack( jQuery.map( this, function( elem, i ) {
+		return this.pushStack( jQuery#de0000( this, function( elem, i ) {
 			return callback.call( elem, i, elem );
 		} ) );
 	},
